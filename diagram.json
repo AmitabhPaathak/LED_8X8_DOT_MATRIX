@@ -4,381 +4,417 @@
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-arduino-mega", "id": "mega", "top": 67.8, "left": 25.2, "attrs": {} },
-    { "type": "wokwi-led", "id": "led1", "top": -330, "left": 90.2, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led2", "top": -330, "left": 61.4, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led1", "top": -330, "left": 90.2, "attrs": { "color": "blue" } },
+    { "type": "wokwi-led", "id": "led2", "top": -330, "left": 61.4, "attrs": { "color": "blue" } },
     {
       "type": "wokwi-led",
       "id": "led3",
       "top": -291.6,
       "left": 61.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
-    { "type": "wokwi-led", "id": "led4", "top": -330, "left": 263, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led5", "top": -330, "left": 234.2, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led6", "top": -330, "left": 205.4, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led7", "top": -330, "left": 176.6, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led8", "top": -330, "left": 147.8, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led9", "top": -330, "left": 119, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led4", "top": -330, "left": 263, "attrs": { "color": "blue" } },
+    {
+      "type": "wokwi-led",
+      "id": "led5",
+      "top": -330,
+      "left": 234.2,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led6",
+      "top": -330,
+      "left": 205.4,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led7",
+      "top": -330,
+      "left": 176.6,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led8",
+      "top": -330,
+      "left": 147.8,
+      "attrs": { "color": "blue" }
+    },
+    { "type": "wokwi-led", "id": "led9", "top": -330, "left": 119, "attrs": { "color": "blue" } },
     {
       "type": "wokwi-led",
       "id": "led10",
       "top": -291.6,
       "left": 90.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led11",
       "top": -291.6,
       "left": 119,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led12",
       "top": -291.6,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led13",
       "top": -291.6,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led14",
       "top": -291.6,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led15",
       "top": -291.6,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led16",
       "top": -291.6,
       "left": 263,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led17",
       "top": -253.2,
       "left": 263,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led18",
       "top": -253.2,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led19",
       "top": -253.2,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led20",
       "top": -253.2,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led21",
       "top": -253.2,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led22",
       "top": -253.2,
       "left": 119,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led23",
       "top": -253.2,
       "left": 90.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led24",
       "top": -253.2,
       "left": 61.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led25",
       "top": -214.8,
       "left": 61.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led26",
       "top": -214.8,
       "left": 90.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led27",
       "top": -214.8,
       "left": 119,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led28",
       "top": -214.8,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led29",
       "top": -214.8,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led30",
       "top": -214.8,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led31",
       "top": -214.8,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led32",
       "top": -214.8,
       "left": 263,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led33",
       "top": -176.4,
       "left": 263,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led34",
       "top": -176.4,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led35",
       "top": -176.4,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led36",
       "top": -176.4,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led37",
       "top": -176.4,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led38",
       "top": -176.4,
       "left": 119,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led39",
       "top": -176.4,
       "left": 90.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led40",
       "top": -176.4,
       "left": 61.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
-    { "type": "wokwi-led", "id": "led41", "top": -138, "left": 61.4, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led42", "top": -138, "left": 90.2, "attrs": { "color": "red" } },
-    { "type": "wokwi-led", "id": "led43", "top": -138, "left": 119, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led41",
+      "top": -138,
+      "left": 61.4,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led42",
+      "top": -138,
+      "left": 90.2,
+      "attrs": { "color": "blue" }
+    },
+    { "type": "wokwi-led", "id": "led43", "top": -138, "left": 119, "attrs": { "color": "blue" } },
     {
       "type": "wokwi-led",
       "id": "led44",
       "top": -138,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led45",
       "top": -138,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led46",
       "top": -138,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led47",
       "top": -138,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
-    { "type": "wokwi-led", "id": "led48", "top": -138, "left": 263, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led48", "top": -138, "left": 263, "attrs": { "color": "blue" } },
     {
       "type": "wokwi-led",
       "id": "led49",
       "top": -368.4,
       "left": 61.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led50",
       "top": -368.4,
       "left": 90.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led51",
       "top": -368.4,
       "left": 119,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led52",
       "top": -368.4,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led53",
       "top": -368.4,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led54",
       "top": -368.4,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led55",
       "top": -368.4,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led56",
       "top": -368.4,
       "left": 263,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led57",
       "top": -406.8,
       "left": 61.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led58",
       "top": -406.8,
       "left": 90.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led59",
       "top": -406.8,
       "left": 119,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led60",
       "top": -406.8,
       "left": 147.8,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led61",
       "top": -406.8,
       "left": 176.6,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led62",
       "top": -406.8,
       "left": 205.4,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led63",
       "top": -406.8,
       "left": 234.2,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-led",
       "id": "led64",
       "top": -406.8,
       "left": 263,
-      "attrs": { "color": "red" }
+      "attrs": { "color": "blue" }
     },
     {
       "type": "wokwi-resistor",
