@@ -24,3 +24,11 @@ Comments have been given to explain the logic as simply as possible.
 #TXTfiles in src folder
 -> They are different loop functions which you can paste to perform different display actions on the Dot Matrix Setup.
 
+
+
+Here are two videos of the simulation:
+
+https://github.com/user-attachments/assets/b24c063c-a16c-4415-94ee-77b5b55e4d3c
+https://github.com/user-attachments/assets/7039a50e-379e-4937-a111-67ab1466777d
+
+
