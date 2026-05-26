@@ -1,43 +1,4 @@
-//Read the README file first 
-//Simulated on Platform IO
-// out function for port A as Row
-
-
-void outrow(char out)
-{
-  volatile char *o = (char *)0x22;
-  *o = out;
-}
-
-//out function for port F as Column
-void outcol(char out)
-{
-  volatile char *o = (char *)0x31;
-  *o = out;
-}
-
-
-int main()
-{
-  volatile char *row = (char *)0x21;            // setting up port A for row
-  *row = 0xFF;
-  volatile char *col = (char *)0x30;            // setting up port F for column 
-  *col = 0xFF;
-  
-
-  int welcome[7][8] = {
-  {255 ,182, 182, 182, 182, 213, 235, 255}, //  W
-  {255, 255, 195, 189, 129, 253, 195, 255}, // e
-  {251, 251, 251, 251, 251, 251, 243, 255}, // l
-  {255, 255, 195, 253, 253, 253, 195, 255}, // c
-  {255, 255, 195, 189, 189, 189, 195, 255}, // o
-  {255, 255, 129, 171, 171, 171, 171, 255},  // m
-  {255, 255, 195, 189, 129, 253, 195, 255} // e
-};
-
-    int inc_char;
-
-    // odd positions entering from top and even positions entering from bottom
+// odd positions entering from top and even positions entering from bottom
     while(1)
     {
       //for changing letter
@@ -81,9 +42,3 @@ int main()
     }
     
     }
-
-
-
- 
-
-}

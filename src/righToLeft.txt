@@ -1,0 +1,39 @@
+// Will scroll the text from right to left
+
+while(1)
+{
+    // Loop through each character in "welcome" (7 letters)
+    for(char letter = 0; letter < 7; letter++)
+    {
+        // 8 shifts per letter to move it smoothly as we have a 8x8 bit display
+        for(char shift = 0; shift < 8; shift++)
+        {
+            // Repeat frame 15 times for humans to see
+            for(int rep = 0; rep < 15; rep++)
+            {
+                for(char row_idx = 0; row_idx < 8; row_idx++)
+                {
+                    // Activate the specific row
+                    outrow(1 << row_idx);
+                    
+                    // Fetch the row value to be displayed 
+                    char display_byte = welcome[letter][row_idx] >> shift;
+                    
+                    // Blend with the next letter for fluid transition
+                    if (letter < 6) {
+                        display_byte |= (welcome[letter + 1][row_idx] << (8 - shift));
+                    }
+                    
+                    // Output the whole byte to columns
+                    outcol(display_byte);
+                    
+                    // Delay for the eyes to actually see the light glow
+                    for(volatile long d = 0; d <= 1000; d++);
+                    
+                    // Clear display to eliminate ghosting artifacts
+                    outcol(0xFF);
+                }
+            }
+        }
+    }
+}

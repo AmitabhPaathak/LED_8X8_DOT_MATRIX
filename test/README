@@ -11,3 +11,6 @@ Just add the while(1) loop inside void loop function as it(Wokwi/Arduino IDE) fo
 The 'void setup()' function is nothing but the register's address declaration and the 'void loop()' function is nothing but a while loop. 
 
 Comments have been given to explain the logic as simply as possible.
+ 
+#TXTfiles in src folder
+-> They are different loop functions which you can paste to perform different display actions on the Dot Matrix Setup.

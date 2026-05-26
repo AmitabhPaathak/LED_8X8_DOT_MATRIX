@@ -1,0 +1,39 @@
+// will scroll from top to bottom 
+    while(1)
+    {
+      //for changing letter
+      for(int letter = 0; letter <7; letter++ )
+      {
+        //for scrolling animation
+        for(int scroll_offset = 8; scroll_offset >= -8; scroll_offset-- )
+        {
+          // for refresh/repeat for visibility
+          for(int rep = 0; rep<5; rep++)
+          {
+        // for changing rows 
+        for(int row_idx = 0; row_idx <8; row_idx++)
+        {
+          //for storing incoming character
+          int inc_char = row_idx - scroll_offset;
+
+          outrow(1<< row_idx);
+          if(inc_char >=0 && inc_char < 8)
+            outcol(welcome[letter][inc_char]);
+
+          // off the rows if no valid input
+          else 
+          outcol(0xFF);
+
+          //delay for persistence of vision
+          for(volatile long d = 0; d<=2000; d++);
+
+          outcol(0xFF);
+        }
+          
+      }
+      for(volatile long d = 0; d<=2000; d++);
+    }
+    
+    }
+    
+    }
